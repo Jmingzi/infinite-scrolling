@@ -35,8 +35,8 @@
       </div>
     </div>
     <p style="padding-top: 30px">
-      git地址：<a href="">infinite-scrolling</a> |
-      文章详解：<a href="">列表无限滚动的优化方案</a>
+      git地址：<a href="https://github.com/Jmingzi/infinite-scrolling">infinite-scrolling</a> |
+      文章详解：<a href="https://github.com/Jmingzi/infinite-scrolling/blob/master/README.md">列表无限滚动的优化方案</a>
     </p>
   </div>
 </template>
