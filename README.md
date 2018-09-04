@@ -75,5 +75,5 @@ if (this.toIndex >= this.dataList.length) {
 
 ### 待完善
 
-![ ] 滚动节流
-![ ] 移动端添加touchmove事件
+- [ ] 滚动节流
+- [ ] 移动端添加touchmove事件
