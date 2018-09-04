@@ -1,6 +1,8 @@
 # infinite-scrolling
 Vue列表无限滚动的解决方案，[demo请戳](http://iming.work:81/#/)
 
+> 思路原理借鉴 [Vue.js 一个超长列表无限滚动加载的解决方案](https://juejin.im/entry/5819993fbf22ec0068aab054)
+
 ### 解决的问题
 
 保持列表中显示的数据条数永远固定在一个值，例如本例子中，固定的条数为滚动容器内可以显示的条目的2倍，因为是2个区域。
@@ -73,5 +75,5 @@ if (this.toIndex >= this.dataList.length) {
 
 ### 待完善
 
-[ ] 滚动节流
-[ ] 移动端添加touchmove事件
+![ ] 滚动节流
+![ ] 移动端添加touchmove事件
