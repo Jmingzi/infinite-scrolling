@@ -77,3 +77,4 @@ if (this.toIndex >= this.dataList.length) {
 
 - [ ] 滚动节流
 - [ ] 移动端添加touchmove事件
+- [ ] 抽成组件
