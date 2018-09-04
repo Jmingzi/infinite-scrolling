@@ -1,5 +1,5 @@
 # infinite-scrolling
-Vue列表无限滚动的解决方案，[demo请戳](http://iming.work:81/#/)
+Vue列表无限滚动的解决方案，[demo请戳](http://iming.work:81/#/)，[源码请戳](https://github.com/Jmingzi/infinite-scrolling/blob/master/src/components/InfiniteScrolling.vue)
 
 > 思路原理借鉴 [Vue.js 一个超长列表无限滚动加载的解决方案](https://juejin.im/entry/5819993fbf22ec0068aab054)
 
