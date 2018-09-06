@@ -76,5 +76,36 @@ if (this.toIndex >= this.dataList.length) {
 ### 待完善
 
 - [ ] 滚动节流
-- [ ] 移动端添加touchmove事件
-- [ ] 抽成组件
+- [ ] ~~~移动端添加touchmove事件~~~
+
+### 使用说明
+
+```
+npm install xm-mui -S
+```
+
+```js
+// 依赖babel-plugin-component按需引入
+import { InfiniteScroll } from 'xm-mui'
+
+export default {
+  components: {
+
+  }
+}
+```
+
+```html
+<infinite-scrolling
+  :fn-fetch="fetch"
+  :item-height="70"
+  :loading="loading"
+>
+  <!--scope slot-->
+  <span slot-scope="{ row }">
+    {{ row.name }}
+  </span>
+</infinite-scrolling>
+```
+fn-fetch是Promise拉取数据的接口，关于currentPage是由自己控制的，loading为请求的状态。
+
