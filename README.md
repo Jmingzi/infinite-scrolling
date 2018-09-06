@@ -90,13 +90,13 @@ import { InfiniteScroll } from 'xm-mui'
 
 export default {
   components: {
-
+    InfiniteScroll
   }
 }
 ```
 
 ```html
-<infinite-scrolling
+<infinite-scroll
   :fn-fetch="fetch"
   :item-height="70"
   :loading="loading"
@@ -105,7 +105,7 @@ export default {
   <span slot-scope="{ row }">
     {{ row.name }}
   </span>
-</infinite-scrolling>
+</infinite-scroll>
 ```
 fn-fetch是Promise拉取数据的接口，关于currentPage是由自己控制的，loading为请求的状态。
 
