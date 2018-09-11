@@ -175,6 +175,7 @@ export default {
   .scroll-container {
     height: 100%;
     overflow: auto;
+    -webkit-overflow-scrolling: touch;
   }
   .scroll-container__item {
     display: flex;
